@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0396FF</color>
+    <color name="colorPrimaryDark">#0396FF</color>
+    <color name="colorAccent">#2256F1</color>
+
+    <color name="colorDanger">#E00909</color>
+    <color name="colorActive">#03A9F4</color>
+    <color name="colorRecovered">#22C22A</color>
+    <color name="colorDeaths">#84878A</color>
+    <color name="colorCardViewBg">#E6EDF0</color>
+    <color name="colorline">#BDC2C5</color>
+    <color name="colorTextMainScreen">#3D3D46</color>
+    <color name="colorWeRecommend">#9F44D3</color>
+    <color name="colorSpreads">#FF5722</color>
+    <color name="colorPrevention">#4CAF50</color>
+
+</resources>

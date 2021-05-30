@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">COVID-19</string>
+
+
+    <string name="Social_Distance">1.Keep 2 meter distance from people</string>
+    <string name="namste">2.Greet with a Namaste instead of a handshake</string>
+    <string name="Wash_Hand">3.Wash Hand with Shop and Hand Sanitizers</string>
+    <string name="Use_Mask">4.Use Mask and Cover Your Face</string>
+    <string name="Stay_Home">5.Avoid Social gatherings &amp; #StayHome #StaySafe</string>
+
+    <string name="SPREADS">HOW IT SPREADS</string>
+    <string name="PREVENTION">PREVENTION</string>
+    <string name="india_total_cases"><![CDATA[India & State Total Cases]]></string>
+    <string name="india_daily_report">India Daily Report</string>
+    <string name="about_corona"><![CDATA[About CORONA & COVID-19]]></string>
+    <string name="stayhome_staysafe">#stayhome #staysafe</string>
+    <string name="world_total_cases">World Total Cases</string>
+</resources>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/colorCardViewBg">
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <TextView
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="covid-19"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="stay-home-stay-safe-red.json"
+        app:lottie_loop="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btn_india_case"
+                android:layout_margin="20dp"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                app:cardMaxElevation="30dp"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:background="@drawable/gradient_background_1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_margin="4dp"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/india_total_cases"
+                        android:textSize="15sp"
+                        android:textColor="@color/colorTextMainScreen"/>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btn_world_case"
+                android:layout_margin="20dp"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                app:cardMaxElevation="30dp"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:background="@drawable/gradient_background_2"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_margin="4dp"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/world_total_cases"
+                        android:textSize="15sp"
+                        android:textColor="@color/colorTextMainScreen"/>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btn_Timeline"
+                android:layout_margin="20dp"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                app:cardMaxElevation="30dp"
+                app:cardCornerRadius="4dp">
+
+
+                <LinearLayout
+                    android:background="@drawable/gradient_background_3"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_margin="4dp"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/india_daily_report"
+                        android:textSize="15sp"
+                        android:textColor="@color/colorTextMainScreen"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btn_AboutCorona"
+                android:layout_margin="20dp"
+                android:layout_centerInParent="true"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                app:cardMaxElevation="30dp"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:background="@drawable/gradient_background_5"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_margin="4dp"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/about_corona"
+                        android:textAllCaps="false"
+                        android:textSize="15sp"
+                        android:textColor="@color/colorTextMainScreen"/>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btn_latest_news"
+                android:layout_margin="20dp"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                app:cardMaxElevation="30dp"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:background="@drawable/gradient_background_2"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_margin="4dp"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Latest News"
+                        android:textSize="15sp"
+                        android:textColor="@color/colorTextMainScreen"/>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btn_StayHome"
+                android:layout_margin="20dp"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                app:cardMaxElevation="30dp"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:background="@drawable/gradient_background_4"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_margin="4dp"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/stayhome_staysafe"
+                        android:textAllCaps="true"
+                        android:textSize="15sp"
+                        android:textColor="@color/colorTextMainScreen"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
